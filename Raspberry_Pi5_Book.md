@@ -58,7 +58,7 @@ We use the **Pironman case** with built-in **NVMe SSD support card**, an excelle
 
 ---
 
-Chapter 3: Software Installation and Package Management
+###  3: Software Installation and Package Management
 3.1 Installing Python Modules
 bash
 Copy
@@ -83,7 +83,7 @@ bash
 Copy
 Edit
 sudo apt install hdparm fio
-Chapter 4: Telegram Chatbot for Stock Analysis
+###  4: Telegram Chatbot for Stock Analysis
 4.1 Creating the Bot
 Created bot using BotFather
 
@@ -113,7 +113,7 @@ Error-handling improvements for empty data
 
 Used feedparser, BeautifulSoup, yfinance, and matplotlib
 
-Chapter 5: Monitoring Raspberry Pi Health
+###  5: Monitoring Raspberry Pi Health
 5.1 CPU & GPU Monitoring Script
 Python script checks load every 30 min
 
@@ -168,7 +168,7 @@ bash
 Copy
 Edit
 sudo shutdown -c
-Chapter 6: Advanced Bot Commands and Features
+###  6: Advanced Bot Commands and Features
 6.1 Planned Enhancements
 Smart command alias lookup (e.g. company name → ticker)
 
@@ -178,14 +178,14 @@ Market screener alerts
 
 Simple web dashboard interface
 
-Chapter 7: Interactive Brokers & Trading API
+###  7: Interactive Brokers & Trading API
 Interactive Brokers offers TWS API and IB Gateway API
 
 Supports Python via ib_insync or IBAPI
 
 Capable of automated trading, order execution, portfolio tracking
 
-Chapter 8: NAS Functions and File Sharing
+###  8: NAS Functions and File Sharing
 Raspberry Pi 5 can act as a lightweight NAS system while keeping other functions like your Telegram bot or GPIO scripts running.
 
 8.1 Options
@@ -224,7 +224,7 @@ sudo systemctl restart smbd
 Access from Finder (Mac): smb://raspberrypi.local/shared
 Access from Windows: \\raspberrypi\shared
 
-Chapter 9: Future Expansion
+###  9: Future Expansion
 Continue tracking questions asked
 
 Daily chapter update based on new developments
